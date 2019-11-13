@@ -33,7 +33,6 @@ function getUserFollower() {
         text.className = "figure-caption";
         text.innerText = data.login;
 
-
         link.append(text);
         image.append(img);
         // image.append(text);
